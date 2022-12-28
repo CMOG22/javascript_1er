@@ -1,6 +1,6 @@
 let button = document.querySelector('button');
 button.onclick =function () {
-    alert("Bienvenido a servicios de TI \nVamos a ayudarlo con su experiencia por el sitio por favor selecciones las opciones utilizando el teclado númerico");
+    alert("Bienvenido a servicios de TI \nVamos a ayudarlo con su experiencia por el sitio por favor seleccione las opciones utilizando el teclado númerico");
     let seleccion = prompt("Selecciona una de las siguientes opciones: \n1 - Contratar servicio. \n2 - Nuestra garantía. \n3 - Salir")
     if (seleccion == 1){
         function sumarServicios(web=0, app=0, marketing=0, redes=0, soporte=0){
